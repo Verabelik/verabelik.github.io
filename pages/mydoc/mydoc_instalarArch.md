@@ -5,7 +5,7 @@ keywords: instalacion, arch, sistemas, operativos, sistemas operativos
 last_updated: 27 Febrero 2022
 summary: "Como realizar la instalación de Arch a través de su instalador."
 sidebar: mydoc_sidebar
-permalink: mydoc_support.html
+permalink: mydoc_instalarArch.html
 folder: mydoc
 topnav: topnav
 ---
