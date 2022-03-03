@@ -1,8 +1,8 @@
 ---
 title: Instalar Arch
-tags: [sistemas operativos, arch]
-keywords: instalacion, arch, sistemas, operativos, sistemas operativos
-last_updated: 27 Febrero 2022
+tags: [linux, arch]
+keywords: instalacion, arch, archlinux, sistemas, operativos, sistemas operativos
+last_updated: 3 Marzo 2022
 summary: "Como realizar la instalación de Arch a través de su instalador."
 sidebar: mydoc_sidebar
 permalink: mydoc_instalarArch.html
@@ -72,6 +72,7 @@ Seleccionamos la opción 3 para tener una instalación de software mínima.
 ## 16 - Drivers
 Instalamos los drivers de nuestra tarjeta grafica y de la tarjeta de sonido.
 ![Image text](images/InstalarArch/16.png)
+![Image text](images/InstalarArch/16_2.png)
 
 ## 17 - Kernel
 Escogemos el kernel que queremos instalar.
@@ -93,5 +94,5 @@ Seleccionamos la zona horaria y le decimos que la actualice automaticamente.
 Ahora nos mostrará un resumen con toda las configuraciones que hemos seleccionado.Una vez estemos conformes y le demos enter comenzará la instalación.
 ![Image text](images/InstalarArch/21.png)
 
-## 23 - Reiniciar el sistema
+## 22 - Reiniciar el sistema
 ![Image text](images/InstalarArch/22.png)
