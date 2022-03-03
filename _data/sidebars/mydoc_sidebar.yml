@@ -23,63 +23,8 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Moverse por la terminal Linux
-      url: /mydoc_moverserTerminal.html
-      output: web, pdf
-
     - title: Instalar Arch
       url: /mydoc_instalarArch.html
       output: web, pdf
 
-  - title: Comandos
-    output: web, pdf
-    folderitems:
-
-  - title: Un poco de teoría
-    output: web, pdf
-    folderitems:
-
-  - title: Errores
-    output: web, pdf
-    folderitems:
-
-  - title: Ataques
-    output: web, pdf
-    folderitems:
-
-  - title: Análisis forense
-    output: web, pdf
-    folderitems:
-
-  - title: Sniffers
-    output: web, pdf
-    folderitems:
-
-  - title: Servidores
-    output: web, pdf
-    folderitems:
-
-  - title: Windows
-    output: web, pdf
-    folderitems:
-
-  - title: Redes Wi-Fi
-    output: web, pdf
-    folderitems:
-
-  - title: Seguridad Web
-    output: web, pdf
-    folderitems:
-
-  - title: Criptografía
-    output: web, pdf
-    folderitems:
-
-  - title: Laboratorio - OverTheWire
-    output: web, pdf
-    folderitems:
-
-  - title: Páginas de interes
-    output: web, pdf
-    folderitems:
 # Copyright 2021 Google LLC
