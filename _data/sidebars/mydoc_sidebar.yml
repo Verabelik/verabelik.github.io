@@ -27,4 +27,12 @@ entries:
       url: /mydoc_instalarArch.html
       output: web, pdf
 
+  - title: OverTheWire
+    output: web, pdf
+    folderitems:
+
+    - title: Bandit (Nivel 0 a 5)
+      url: /mydoc_overthewire.html
+      output: web, pdf
+
 # Copyright 2021 Google LLC

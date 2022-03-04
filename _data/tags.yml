@@ -4,6 +4,8 @@
 allowed-tags:
   - linux
   - arch
+  - overthewire
+  - laboratorio
   - getting_started
   - content_types
   - navigation
