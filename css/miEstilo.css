@@ -5,6 +5,7 @@
 	/*font-weight: bold;*/
 	font-family: monospace;
 	margin-top: -0px;
+	overflow:scroll;
 }
 #barra{
 	color: white;
