@@ -21,7 +21,7 @@ topnav: topnav
 {% include callout.html content="Para conectarnos mediante ssh solo necesitamos saber que el comando **ssh** funciona de la siguiente manera:<br/>&nbsp;&nbsp;&nbsp;&nbsp;→	ssh usuario@[host]:[puerto]<br/>**Ejemplo:** ssh admin@mi.conexion.org:2222" type="primary" %}
 <link href="css/miEstilo.css" rel="stylesheet" type="text/css">
 <div id="barra"><img src="images/terminal/botones.png" id="botones"><center id="texto_barra">verabelik.github.io</center></div>
-<div id="terminal">ssh bandit0@bandit.labs.overthewire.org:2220</div>
+<div id="terminal">ssh bandit0@bandit.labs.overthewire.org:2220 987987</div>
 
 ## Nivel 0 → Nivel 1
 ## Nivel 1 → Nivel 2
