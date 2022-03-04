@@ -19,7 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Empieza por aquí
+  - title: Linux
     output: web, pdf
     folderitems:
 
