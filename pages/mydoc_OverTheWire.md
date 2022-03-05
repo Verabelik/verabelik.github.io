@@ -205,9 +205,13 @@ The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR<br/>
 {% include solucion.html content="IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR" %}
 
 ## **Nivel 11 → Nivel 12**
-{% include objetivo.html content="La contraseña esta alojada en un archivo llamado **data.txt** que contiene información condificada en base64"%}
+{% include objetivo.html content="La contraseña para el siguiente nivel esta alojada en el archivo **data.txt**, tanto las minúsculas como las mayúsculas han sido rotadas 13 posiciones."%}
 {% include comandos.html content="cat, tr" %}
-{% include callout.html content="Para decodificar base64 basta con usar el comando **base64 -d [archivo]**." type="primary" %}
+{% include callout.html content="Claramente el enunciado hace renferencia al algoritmo ROT13 dónde cada letra del abecedario toma el valor de la 13º letra desde su posición. Por ejemplo, si tomamos la letra A y la rotamos 13 posiciones veriamos que nos da un valor de N. Sabiendo esto solo necesitamos un comando que nos cambie las A por N, B por O, C por P, etc. Esto lo podemos conseguir con el comando **tr** de la siguiente forma:<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; **echo** [texto] | **tr** [a-zA-Z] [n-za-mN-ZA-M]<br/>
+<br/>**[a-zA-Z]** **→** Le indica que queremos usar todos los carácteres que se encuentran entre la **A** y la **Z**.<br/><br/>
+**[n-za-mN-ZA-M]** **→** Le indica que debe empezar como si el abecedario comenzara por **n** y terminara en **m**.<br/>
+" type="primary" %}
 <link href="css/miEstilo.css" rel="stylesheet" type="text/css">
 <div id="barra"><img src="images/terminal/botones.png" id="botones"><center id="texto_barra">verabelik.github.io</center></div>
 <div id="terminal">ssh bandit11@bandit.labs.overthewire.org -p 2220<br/>
@@ -217,3 +221,113 @@ bandit11@bandit:~$ cat data.txt | tr [a-zA-Z] [n-za-mN-ZA-M]<br/>
 The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu<br/>
 </div>
 {% include solucion.html content="5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu" %}
+
+## **Nivel 12 → Nivel 13**
+{% include objetivo.html content="La contraseña para el siguiente nivel esta alojada en el archivo **data.txt**, este archivo es un registro hexadecimal comprimido varias veces."%}
+{% include comandos.html content="mkdir, cp, cat, xxd, file, gzip, bzip2, tar." %}
+{% include callout.html content="Primero creo una carpeta temporal y copio el archivo. Cambio al directorio que antes cree y para pasar del registro hexadecimal al archivo original uso el comando **xxd -r** y vuelco el nuevo contenido en un archivo llamado **data**. Con el comando **file** compruebo el tipo de archivo.<br/><br/>
+Podemos ver que es un archivo comprimido con gzip, para descomprimirlo primero le cambiamos la extensión a gz y luego usamos el comando **gzip -d**<br/><br/>Volvemos a repetir el procedimiento con **file** y vemos que ahora tenemos un archivo **bzip2**. Continuar descomprimiendo hasta tener un archivo de texto plano." type="primary" %}
+<link href="css/miEstilo.css" rel="stylesheet" type="text/css">
+<div id="barra"><img src="images/terminal/botones.png" id="botones"><center id="texto_barra">verabelik.github.io</center></div>
+<div id="terminal">ssh bandit12@bandit.labs.overthewire.org -p 2220<br/>
+#Creo el directorio, copio el archivo y me muevo al directorio creado.<br/>
+bandit12@bandit:~$ mkdir /tmp/verabelik<br/>
+bandit12@bandit:~$ cp data.txt /tmp/verabelik<br/>
+bandit12@bandit:~$ cd /tmp/verabelik<br/>
+<br/>#Con cat leo el archivo y se lo paso al comando xxd el cual volcara ĺa salida al archivo data<br/>
+bandit12@bandit:/tmp/verabelik$ cat "data.txt" | xxd -r > data<br/>
+<br/>#Compruebo el tipo de archivo<br/>
+bandit12@bandit:/tmp/verabelik$ file data<br/>
+data: gzip compressed data, was "data2.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix<br/>
+<br/>#Cambio la extensión a .gz<br/>
+bandit12@bandit:/tmp/verabelik$ mv data data.gz<br/>
+bandit12@bandit:/tmp/verabelik$ ls<br/>
+data.gz  data.txt<br/>
+<br/>#Descomprimo el archivo con gzip<br/>
+bandit12@bandit:/tmp/verabelik$ gzip -d data.gz<br/>
+bandit12@bandit:/tmp/verabelik$ ls<br/>
+data  data.txt<br/>
+<br/>#Descomprimo el archivo con bzip2<br/>
+bandit12@bandit:/tmp/verabelik$ file data<br/>
+data: bzip2 compressed data, block size = 900k<br/>
+bandit12@bandit:/tmp/verabelik$ mv data data.bz<br/>
+bandit12@bandit:/tmp/verabelik$ bzip2 -d data.bz<br/>
+bandit12@bandit:/tmp/verabelik$ ls<br/>
+data  data.txt<br/>
+<br/>#Descomprimo el archivo con gzip<br/>
+bandit12@bandit:/tmp/verabelik$ file data<br/>
+data: gzip compressed data, was "data4.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix<br/>
+bandit12@bandit:/tmp/verabelik$ mv data data.gz<br/>
+bandit12@bandit:/tmp/verabelik$ gzip -d data.gz <br/>
+bandit12@bandit:/tmp/verabelik$ ls<br/>
+data  data.txt<br/>
+<br/>#Descomprimo el archivo con tar<br/>
+bandit12@bandit:/tmp/verabelik$ file data<br/>
+data: POSIX tar archive (GNU)<br/>
+bandit12@bandit:/tmp/verabelik$ mv data data.tar<br/>
+bandit12@bandit:/tmp/verabelik$ tar -xf data.tar<br/>
+bandit12@bandit:/tmp/verabelik$ ls<br/>
+data5.bin  data.tar  data.txt<br/>
+<br/>#Descomprimo el archivo con tar<br/>
+bandit12@bandit:/tmp/verabelik$ file data5.bin<br/>
+data5.bin: POSIX tar archive (GNU)<br/>
+bandit12@bandit:/tmp/verabelik$ mv data5.bin data5.tar<br/>
+bandit12@bandit:/tmp/verabelik$ tar -xf data5.tar<br/>
+bandit12@bandit:/tmp/verabelik$ ls<br/>
+data5.tar  data6.bin  data.tar  data.txt<br/>
+<br/>#Descomprimo el archivo con bzip2<br/>
+bandit12@bandit:/tmp/verabelik$ file data6.bin <br/>
+data6.bin: bzip2 compressed data, block size = 900k<br/>
+bandit12@bandit:/tmp/verabelik$ mv data6.bin data6.bz<br/>
+bandit12@bandit:/tmp/verabelik$ bzip2 -d data6.bz<br/>
+bandit12@bandit:/tmp/verabelik$ ls<br/>
+data5.tar  data6  data.tar  data.txt<br/>
+<br/>#Descomprimo el archivo con tar<br/>
+bandit12@bandit:/tmp/verabelik$ file data6<br/>
+data6: POSIX tar archive (GNU)<br/>
+bandit12@bandit:/tmp/verabelik$ mv data6 data6.tar<br/>
+bandit12@bandit:/tmp/verabelik$ tar -xf data6.tar<br/>
+bandit12@bandit:/tmp/verabelik$ ls<br/>
+data5.tar  data6.tar  data8.bin  data.tar  data.txt<br/>
+<br/>#Descomprimo el archivo con gzip<br/>
+bandit12@bandit:/tmp/verabelik$ file data8.bin <br/>
+data8.bin: gzip compressed data, was "data9.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix<br/>
+bandit12@bandit:/tmp/verabelik$ mv data8.bin data8.gz<br/>
+bandit12@bandit:/tmp/verabelik$ gzip -d data8.gz<br/>
+bandit12@bandit:/tmp/verabelik$ ls<br/>
+data5.tar  data6.tar  data8  data.tar  data.txt<br/>
+<br/>#Leo el archivo en texto plano<br/>
+bandit12@bandit:/tmp/verabelik$ file data8<br/>
+data8: ASCII text<br/>
+bandit12@bandit:/tmp/verabelik$ cat data8<br/>
+The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL<br/>
+</div>
+{% include solucion.html content="8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL" %}
+
+## **Nivel 13 → Nivel 14**
+{% include objetivo.html content="La contraseña para el siguiente nivel esta alojada en **/etc/bandit_pass/bandit14** y solo puede ser leido por el usuario **bandit14**. En este nivel no se obtiene una contraseña si no una **llave ssh** que puede ser usada para logearse en el siguiente nivel. <br/><br/>**NOTA:** **localhost** es el hostname de la maquina en la que estamos trabajando. "%}
+{% include comandos.html content="ssh, cat" %}
+{% include callout.html content="Este es un nivel muy sencillo, basta con conectarnos desde bandit13 a bandit14 con la llave ssh que encontramos en el home de bandit13. Una vez logeados como bandit14 leemos la ruta que nos indican." type="primary" %}
+<link href="css/miEstilo.css" rel="stylesheet" type="text/css">
+<div id="barra"><img src="images/terminal/botones.png" id="botones"><center id="texto_barra">verabelik.github.io</center></div>
+<div id="terminal">ssh bandit13@bandit.labs.overthewire.org -p 2220<br/>
+bandit13@bandit:~$ ls<br/>
+sshkey.private<br/>
+bandit13@bandit:~$ ssh bandit14@localhost -i sshkey.private<br/>
+bandit14@bandit:~$ cat /etc/bandit_pass/bandit14<br/>
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e<br/>
+</div>
+{% include solucion.html content="4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" %}
+
+## **Nivel 14 → Nivel 15**
+{% include objetivo.html content="Para ver la contraseña del próximo nivel es necesario enviar la contraseña del nivel actual al localhost por el puerto 30000."%}
+{% include comandos.html content="echo, nc" %}
+{% include callout.html content="Para enviar la contraseña lo que haré es un **echo** con la contraseña concatenado con **nc** el cual hará el envio y el servidor nos contestará con la nueva contraseña." type="primary" %}
+<link href="css/miEstilo.css" rel="stylesheet" type="text/css">
+<div id="barra"><img src="images/terminal/botones.png" id="botones"><center id="texto_barra">verabelik.github.io</center></div>
+<div id="terminal">ssh bandit14@bandit.labs.overthewire.org -p 2220<br/>
+bandit14@bandit:~$ echo '4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e' | nc<br/>localhost 30000<br/>
+Correct!<br/>
+BfMYroe26WYalil77FoDi9qh59eK5xNr<br/>
+</div>
+{% include solucion.html content="BfMYroe26WYalil77FoDi9qh59eK5xNr" %}
