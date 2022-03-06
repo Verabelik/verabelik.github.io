@@ -35,7 +35,7 @@ entries:
       url: /mydoc_otw_bandit.html
       output: web, pdf
 
-    - title: Krypton
+    - title: Krypton (Nivel 0 a 2)
       url: /mydoc_otw_krypton.html
       output: web, pdf
 

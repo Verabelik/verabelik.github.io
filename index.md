@@ -9,7 +9,7 @@ summary:
 ## Mapa del sitio
 <link href="css/miEstilo.css" rel="stylesheet" type="text/css">
 <div id="tree">
-<u><b>tree verabelik.github.com</b></u><br/>
+<u><b>verabelik.github.com</b></u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;├ Linux<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
@@ -19,8 +19,9 @@ summary:
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_otw_bandit.html">Bandit</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_otw_krypton.html">Krypto</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;└
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_otw_krypton.html">Krypton</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;└ <a href="https://github.com/Verabelik">GitHub</a><br/>
 </div>
 
 ## Últimas actualizaciones
