@@ -1,11 +1,10 @@
 ---
-title: OverTheWire Bandit
+title: OverTheWire - Bandit
 tags: [laboratorio, overthewire]
 keywords: laboratorio, overthewire
-last_updated: 4 Marzo 2022
 summary: "Cómo resolver el laboratorio Bandit de OVerTheWire"
 sidebar: mydoc_sidebar
-permalink: mydoc_overthewire.html
+permalink: mydoc_otw_bandit.html
 folder: mydoc
 topnav: topnav
 ---

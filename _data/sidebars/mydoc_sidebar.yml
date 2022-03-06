@@ -31,8 +31,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Bandit (Nivel 0 a 15)
-      url: /mydoc_overthewire.html
+    - title: Bandit (Nivel 0 a 14)
+      url: /mydoc_otw_bandit.html
+      output: web, pdf
+
+    - title: Krypton
+      url: /mydoc_otw_krypton.html
       output: web, pdf
 
 # Copyright 2021 Google LLC

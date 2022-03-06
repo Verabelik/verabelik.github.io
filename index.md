@@ -1,42 +1,30 @@
 ---
-title: "Presentación"
-keywords: presentacion
-tags: [presentacion, inicio]
+title: "Inicio"
+keywords: inicio
 sidebar: mydoc_sidebar
 permalink: index.html
 summary: 
 ---
 
-## ¿Que vas a encontrar en esta web?
+## Mapa del sitio
+<link href="css/miEstilo.css" rel="stylesheet" type="text/css">
+<div id="tree">
+<u><b>tree verabelik.github.com</b></u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├ Linux<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└<a href="https://verabelik.github.io/mydoc_instalarArch.html"> Como instalar Arch</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├ OverTheWire<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_otw_bandit.html">Bandit</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_otw_krypton.html">Krypto</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;└
+</div>
 
-### 1. Nociones básicas sobre linux
-
-Instalar el sistema operativo, entorno gráfico, gestor de sesión, temas personalizados...
-
-### 2. Comandos
-
-Una lista de todos los comandos que he usado hasta hoy, con una breve explicacion y ejemplos
-
-### 3. Un poco de toría
-
-Aunque sea una parte que puede hacerse pesada es imprescindible tener algunos conceptos teóricos claros. Veremos como funcionan arquitecturas como GPS, GPRS, Bluetooth y los protocolos TCP, IP, DNS, ARP.
-
-### 4. Errores
-
-Una recopilación de los errores más comunes en linux y sus soluciones.
-
-### 5. Ataques
-
-Aprenderemos diferentes tipos de ataques que luego pondremos a prueba en laboratorios.
-
-### 6. Análisis forense
-
-¿Qué procesos estaban funcionando cuando se produjo el ataque? ¿Se puede recuperar un archivo? ¿Que cuentas tiene el equipo?
-
-### 7. Laboratorios
-
-Creación y resolución de laboratorios en entornos seguros.
-
-
+## Últimas actualizaciones
+05/03/2022 -> Añadidos niveles 0 al 14 de OverTheWire - Bandit<br/>
+06/03/2022 -> Añadidos niveles 0 al 6 de OverTheWire - Krypton<br/>
 
 {% include links.html %}
