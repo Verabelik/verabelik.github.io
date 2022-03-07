@@ -30,7 +30,7 @@ summary:
 
 ## Últimas actualizaciones
 07/03/2022 -> Añadida teoría IPs<br/>
-06/03/2022 -> Añadidos niveles 0 al 6 de OverTheWire - Krypton<br/>
+06/03/2022 -> Añadidos niveles 0 al 2 de OverTheWire - Krypton<br/>
 05/03/2022 -> Añadidos niveles 0 al 14 de OverTheWire - Bandit<br/>
 
 
