@@ -32,7 +32,7 @@ entries:
     folderitems:
 
     - title: IP
-      url: /mydoc_teoria_ip.html
+      url: /mydoc_teoria_IP.html
       output: web, pdf
 
   - title: OverTheWire

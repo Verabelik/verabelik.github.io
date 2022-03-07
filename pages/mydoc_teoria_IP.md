@@ -4,7 +4,7 @@ tags: [teoria]
 keywords: teoria, ip
 summary: "Teoría sobre las IPs."
 sidebar: mydoc_sidebar
-permalink: mydoc_teoria_ip.html
+permalink: mydoc_teoria_IP.html
 folder: mydoc
 topnav: topnav
 ---
