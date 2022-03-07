@@ -15,6 +15,10 @@ summary:
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└<a href="https://verabelik.github.io/mydoc_instalarArch.html"> Como instalar Arch</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├ Teoría<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└<a href="https://verabelik.github.io/mydoc_teoria_IP.html"> IPs</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;├ OverTheWire<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_otw_bandit.html">Bandit</a><br/>
@@ -25,7 +29,9 @@ summary:
 </div>
 
 ## Últimas actualizaciones
-05/03/2022 -> Añadidos niveles 0 al 14 de OverTheWire - Bandit<br/>
+07/03/2022 -> Añadida teoría IPs<br/>
 06/03/2022 -> Añadidos niveles 0 al 6 de OverTheWire - Krypton<br/>
+05/03/2022 -> Añadidos niveles 0 al 14 de OverTheWire - Bandit<br/>
+
 
 {% include links.html %}

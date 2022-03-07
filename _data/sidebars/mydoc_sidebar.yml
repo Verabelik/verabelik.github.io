@@ -27,6 +27,14 @@ entries:
       url: /mydoc_instalarArch.html
       output: web, pdf
 
+  - title: Teoría
+    output: web, pdf
+    folderitems:
+
+    - title: IP
+      url: /mydoc_teoria_ip.html
+      output: web, pdf
+
   - title: OverTheWire
     output: web, pdf
     folderitems:
