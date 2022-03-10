@@ -51,4 +51,12 @@ entries:
       url: /mydoc_otw_krypton.html
       output: web, pdf
 
+  - title: Otros
+    output: web, pdf
+    folderitems:
+
+    - title: Páginas web de interés
+      url: /mydoc_otros_paginas_interes.html
+      output: web, pdf
+
 # Copyright 2021 Google LLC

@@ -27,10 +27,15 @@ summary:
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_otw_krypton.html">Krypton</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├ Otros<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_otros_paginas_interes.html">Páginas de interés</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;└ <a href="https://github.com/Verabelik">GitHub</a><br/>
 </div>
 
 ## Últimas actualizaciones
+09/03/2022 -> Añadida sección de páginas web de interés<br/>
 08/03/2022 -> Añadida teoría topologías de red<br/>
 07/03/2022 -> Añadida teoría IPs<br/>
 06/03/2022 -> Añadidos niveles 0 al 2 de OverTheWire - Krypton<br/>
