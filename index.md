@@ -25,6 +25,8 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_basico.html">Conceptos básicos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_cadenas.html">Cadenas de carácteres</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_python_aprender.html">Aprender Python</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;├ OverTheWire<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
@@ -40,6 +42,8 @@ permalink: index.html
 </div><br/>
 
 ## Últimas 5 actualizaciones
+<u>11/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Aprender Python".<br/><br/>
 <u>10/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva sección "Python".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida las página Python: Conceptos básicos<br/>
@@ -50,8 +54,6 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida teoría topologías de red<br/><br/>
 <u>07/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida teoría IPs<br/><br/>
-<u>06/03/2022</u><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadidos niveles 0 al 2 de OverTheWire - Krypton<br/><br/>
-[<a href="https://verabelik.github.io/mydoc_actualizaciones.html">Ver actualizaciones pasadas(7)</a>]<br/>
+[<a href="https://verabelik.github.io/mydoc_actualizaciones.html">Ver actualizaciones pasadas(8)</a>]<br/>
 
 {% include links.html %}

@@ -51,6 +51,10 @@ entries:
       url: /mydoc_python_cadenas.html
       output: web, pdf
 
+    - title: Aprender python
+      url: /mydoc_python_aprender.html
+      output: web, pdf
+
   - title: OverTheWire
     output: web, pdf
     folderitems:

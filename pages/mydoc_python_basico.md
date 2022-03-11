@@ -1,7 +1,7 @@
 ---
 title: Conceptos básicos de python
 tags: [programacion, python]
-keywords: progrmación, python
+keywords: programación, python
 summary: "Conceptos básicos de python"
 sidebar: mydoc_sidebar
 permalink: mydoc_python_basico.html

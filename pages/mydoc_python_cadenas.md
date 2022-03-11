@@ -1,7 +1,7 @@
 ---
 title: Cadenas de carácteres
 tags: [programacion, python]
-keywords: progrmación, python, cadenas
+keywords: programación, python, cadenas
 summary: "Cadenas en python"
 sidebar: mydoc_sidebar
 permalink: mydoc_python_cadenas.html
