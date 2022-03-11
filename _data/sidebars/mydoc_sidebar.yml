@@ -51,6 +51,14 @@ entries:
       url: /mydoc_python_cadenas.html
       output: web, pdf
 
+    - title: Listas y tuplas
+      url: /mydoc_python_listas_tuplas.html
+      output: web, pdf
+
+    - title: Ingresar datos por teclado
+      url: /mydoc_python_datos_teclado.html
+      output: web, pdf
+
     - title: Aprender python
       url: /mydoc_python_aprender.html
       output: web, pdf

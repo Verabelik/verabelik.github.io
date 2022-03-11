@@ -26,6 +26,10 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_cadenas.html">Cadenas de carácteres</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_listas_tuplas.html">Listas y tuplas</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_datos_teclado.html">Ingresar datos por teclado</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_python_aprender.html">Aprender Python</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;├ OverTheWire<br/>
@@ -43,6 +47,8 @@ permalink: index.html
 
 ## Últimas 5 actualizaciones
 <u>11/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Ingresar datos por teclado".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Listas y tuplas".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Aprender Python".<br/><br/>
 <u>10/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva sección "Python".<br/>

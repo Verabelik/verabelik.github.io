@@ -11,6 +11,8 @@ topnav: topnav
 
 <ol reversed>
 <li><u>11/03/2022</u></li>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Ingresar datos por teclado".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Listas y tuplas".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Aprender Python".<br/>
 <li><u>10/03/2022</u></li>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva sección "Python".<br/>
