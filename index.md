@@ -1,9 +1,8 @@
 ---
-title: "Inicio 1.5.7"
+title: "Inicio"
 keywords: inicio
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: 
 ---
 
 ## Mapa del sitio
