@@ -9,10 +9,21 @@ folder: mydoc
 topnav: topnav
 ---
 
-08/03/2022 -> Añadida teoría topologías de red<br/>
-07/03/2022 -> Añadida teoría IPs<br/>
-06/03/2022 -> Añadidos niveles 0 al 2 de OverTheWire - Krypton<br/>
-05/03/2022 -> Añadidos niveles 0 al 14 de OverTheWire - Bandit<br/>
-04/03/2022 -> Añadido tutorial para instalar Arch<br/><br/>
+<u>10/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva sección "Python".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida las página Python: Conceptos básicos<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida las página Python: Cadenas de carácteres<br/><br/>
+<u>09/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida sección de páginas web de interés<br/><br/>
+<u>08/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida teoría topologías de red<br/><br/>
+<u>07/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida teoría IPs<br/><br/>
+<u>06/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadidos niveles 0 al 2 de OverTheWire - Krypton<br/><br/>
+<u>05/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadidos niveles 0 al 14 de OverTheWire - Bandit<br/><br/>
+<u>04/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadido tutorial para instalar Arch<br/><br/>
 
-Total de actualizaciones = 5<br/>
+Total de actualizaciones = 7<br/>

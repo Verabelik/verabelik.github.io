@@ -39,6 +39,18 @@ entries:
       url: /mydoc_teoria_topologias_red.html
       output: web, pdf
 
+  - title: Python
+    output: web, pdf
+    folderitems:
+
+    - title: Conceptos básicos
+      url: /mydoc_python_basico.html
+      output: web, pdf
+
+    - title: Cadenas de carácteres
+      url: /mydoc_python_cadenas.html
+      output: web, pdf
+
   - title: OverTheWire
     output: web, pdf
     folderitems:
