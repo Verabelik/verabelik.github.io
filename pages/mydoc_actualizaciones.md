@@ -10,6 +10,11 @@ topnav: topnav
 ---
 
 <ol reversed>
+<li><u>12/03/2022</u></li>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores lógicos".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores de asignaciones".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores aritméticos".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores relacionales".<br/>
 <li><u>11/03/2022</u></li>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Ingresar datos por teclado".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Listas y tuplas".<br/>

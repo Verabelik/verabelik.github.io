@@ -59,6 +59,22 @@ entries:
       url: /mydoc_python_datos_teclado.html
       output: web, pdf
 
+    - title: Operadores aritméticos
+      url: /mydoc_python_operadores_aritmeticos.html
+      output: web, pdf
+
+    - title: Operadores de asignaciones
+      url: /mydoc_python_operadores_asignaciones.html
+      output: web, pdf
+
+    - title: Operadores relacionales
+      url: /mydoc_python_operadores_relacionales.html
+      output: web, pdf
+
+    - title: Operadores lógicos
+      url: /mydoc_python_operadores_logicos.html
+      output: web, pdf
+
     - title: Aprender python
       url: /mydoc_python_aprender.html
       output: web, pdf

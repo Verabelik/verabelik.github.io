@@ -30,6 +30,14 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_datos_teclado.html">Ingresar datos por teclado</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_operadores_aritmeticos.html">Operadores aritméticos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_operadores_asignaciones.html">Operadores de asignaciones</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_operadores_relacionales.html">Operadores relacionales</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_operadores_logicos.html">Operadores lógicos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_python_aprender.html">Aprender Python</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;├ OverTheWire<br/>
@@ -46,6 +54,11 @@ permalink: index.html
 </div><br/>
 
 ## Últimas 5 actualizaciones
+<u>12/03/2022</u>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores lógicos".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores de asignaciones".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores aritméticos".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores relacionales".<br/><br/>
 <u>11/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Ingresar datos por teclado".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Listas y tuplas".<br/>
@@ -58,8 +71,6 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida sección de páginas web de interés<br/><br/>
 <u>08/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida teoría topologías de red<br/><br/>
-<u>07/03/2022</u><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida teoría IPs<br/><br/>
-[<a href="https://verabelik.github.io/mydoc_actualizaciones.html">Ver actualizaciones pasadas(8)</a>]<br/>
+[<a href="https://verabelik.github.io/mydoc_actualizaciones.html">Ver actualizaciones pasadas (9)</a>]<br/>
 
 {% include links.html %}
