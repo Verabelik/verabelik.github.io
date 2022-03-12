@@ -14,6 +14,7 @@ topnav: topnav
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python a "Aprende python".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Estructuras de control y bucles.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Conjuntos.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Diccionarios".<br/>
 <li><u>12/03/2022</u></li>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores lógicos".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores de asignaciones".<br/>

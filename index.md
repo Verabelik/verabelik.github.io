@@ -42,6 +42,8 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_conjuntos.html">Conjuntos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_diccionarios.html">Diccionarios</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_python_aprender.html">Aprender Python</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;├ OverTheWire<br/>
@@ -59,6 +61,7 @@ permalink: index.html
 
 ## Últimas 5 actualizaciones
 <u>13/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Diccionarios".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Estructuras de control y bucles.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Conjuntos.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python a "Aprende python".<br/><br/>
@@ -77,5 +80,7 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida las página Python: Cadenas de carácteres<br/><br/>
 <u>09/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida sección de páginas web de interés<br/><br/>
+
+<a href="https://verabelik.github.io/mydoc_actualizaciones.html">Ver todas las actualizaciones</a><br/>
 
 {% include links.html %}

@@ -83,6 +83,10 @@ entries:
       url: /mydoc_python_conjuntos.html
       output: web, pdf
 
+    - title: Diccionarios
+      url: /mydoc_python_diccionarios.html
+      output: web, pdf
+
     - title: Aprende python
       url: /mydoc_python_aprender.html
       output: web, pdf
