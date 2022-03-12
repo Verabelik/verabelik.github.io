@@ -73,19 +73,19 @@ tres
 ````
 ### Imprimir un elemento de la tupla
 ```python
->>> tupla = [1, 2, "tres"]
+>>> tupla = (1, 2, "tres")
 >>> print(tupla[0])
 1
 ````
 ### Imprimir un elemento de la tupla indice negativo
 ```python
->>> tupla = [1, 2, "tres"]
->>> print(tipla[-1])
+>>> tupla = (1, 2, "tres")
+>>> print(tupla[-1])
 tres
 ````
 ### Imprimir conjunto de elementos de la tupla
 ```python
->>> tupla = [1, 2, "tres"]
+>>> tupla = (1, 2, "tres")
 >>> print(tupla[0:2])
 [1, 2]
 ````

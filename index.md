@@ -38,6 +38,10 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_operadores_logicos.html">Operadores lógicos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_estructuras_control.html">Estructuras de control y bucles</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_conjuntos.html">Conjuntos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_python_aprender.html">Aprender Python</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;├ OverTheWire<br/>
@@ -54,7 +58,11 @@ permalink: index.html
 </div><br/>
 
 ## Últimas 5 actualizaciones
-<u>12/03/2022</u>
+<u>13/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Estructuras de control y bucles.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Conjuntos.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python a "Aprende python".<br/><br/>
+<u>12/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores lógicos".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores de asignaciones".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores aritméticos".<br/>
@@ -69,8 +77,5 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida las página Python: Cadenas de carácteres<br/><br/>
 <u>09/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida sección de páginas web de interés<br/><br/>
-<u>08/03/2022</u><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida teoría topologías de red<br/><br/>
-[<a href="https://verabelik.github.io/mydoc_actualizaciones.html">Ver actualizaciones pasadas (9)</a>]<br/>
 
 {% include links.html %}

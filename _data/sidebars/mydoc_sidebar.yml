@@ -75,7 +75,15 @@ entries:
       url: /mydoc_python_operadores_logicos.html
       output: web, pdf
 
-    - title: Aprender python
+    - title: Estructuras de control
+      url: /mydoc_python_estructuras_control.html
+      output: web, pdf
+
+    - title: Conjuntos
+      url: /mydoc_python_conjuntos.html
+      output: web, pdf
+
+    - title: Aprende python
       url: /mydoc_python_aprender.html
       output: web, pdf
 

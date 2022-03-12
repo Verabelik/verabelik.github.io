@@ -11,7 +11,10 @@ topnav: topnav
 
 ## Programación
 
-<a href="https://www.pildorasinformaticas.es/">Píldoras informáticas</a><br/> 
+<a href="https://www.pildorasinformaticas.es/">Píldoras informáticas</a><br/>
+<a href="https://entrenamiento-python-basico.readthedocs.io/es/latest/index.html">Programación en Python - Nivel básico</a><br/>
+
+
 
 ## Hacking
 
