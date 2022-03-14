@@ -10,8 +10,10 @@ topnav: topnav
 ---
 
 <ol reversed>
+<li><u>14/03/2022</u></li>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Funciones".<br/>
 <li><u>13/03/2022</u></li>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python a "Aprende python".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python "Aprende python".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Estructuras de control y bucles.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Conjuntos.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Diccionarios".<br/>

@@ -44,6 +44,8 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_diccionarios.html">Diccionarios</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_funciones.html">Funciones</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_python_aprender.html">Aprender Python</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;├ OverTheWire<br/>
@@ -60,6 +62,8 @@ permalink: index.html
 </div><br/>
 
 ## Últimas 5 actualizaciones
+<u>14/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Funciones".<br/><br/>
 <u>13/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Diccionarios".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Estructuras de control y bucles.<br/>
@@ -78,8 +82,7 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva sección "Python".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida las página Python: Conceptos básicos<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida las página Python: Cadenas de carácteres<br/><br/>
-<u>09/03/2022</u><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida sección de páginas web de interés<br/><br/>
+
 
 <a href="https://verabelik.github.io/mydoc_actualizaciones.html">Ver todas las actualizaciones</a><br/>
 
