@@ -91,6 +91,10 @@ entries:
       url: /mydoc_python_funciones.html
       output: web, pdf
 
+    - title: Errores
+      url: /mydoc_python_errores.html
+      output: web, pdf
+
     - title: Aprende python
       url: /mydoc_python_aprender.html
       output: web, pdf

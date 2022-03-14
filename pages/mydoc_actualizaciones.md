@@ -11,6 +11,7 @@ topnav: topnav
 
 <ol reversed>
 <li><u>14/03/2022</u></li>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Capturar errores".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Funciones".<br/>
 <li><u>13/03/2022</u></li>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python "Aprende python".<br/>

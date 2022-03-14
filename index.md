@@ -63,6 +63,7 @@ permalink: index.html
 
 ## Últimas 5 actualizaciones
 <u>14/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Capturar errores".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Funciones".<br/><br/>
 <u>13/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Diccionarios".<br/>
