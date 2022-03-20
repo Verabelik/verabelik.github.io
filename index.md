@@ -46,8 +46,16 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_funciones.html">Funciones</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_errores.html">Errores</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_python_clases.html">Programación Orientada a Objetos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_python_aprender.html">Aprender Python</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├ Reconocimiento del objetivo<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_reco_nmap.html">Nmap</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;├ OverTheWire<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_otw_bandit.html">Bandit</a><br/>
@@ -62,6 +70,10 @@ permalink: index.html
 </div><br/>
 
 ## Últimas 5 actualizaciones
+<u>16/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página "Reconocimiento del objetivo: Escaneos con NMAP".<br/><br/>
+<u>15/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Programación Orientada a Objetos".<br/><br/>
 <u>14/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Capturar errores".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Funciones".<br/><br/>
@@ -70,20 +82,6 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Estructuras de control y bucles.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Conjuntos.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python a "Aprende python".<br/><br/>
-<u>12/03/2022</u><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores lógicos".<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores de asignaciones".<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores aritméticos".<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Operadores relacionales".<br/><br/>
-<u>11/03/2022</u><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Ingresar datos por teclado".<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Listas y tuplas".<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Aprender Python".<br/><br/>
-<u>10/03/2022</u><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva sección "Python".<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida las página Python: Conceptos básicos<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida las página Python: Cadenas de carácteres<br/><br/>
-
 
 <a href="https://verabelik.github.io/mydoc_actualizaciones.html">Ver todas las actualizaciones</a><br/>
 

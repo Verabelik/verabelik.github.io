@@ -95,8 +95,20 @@ entries:
       url: /mydoc_python_errores.html
       output: web, pdf
 
+    - title: Programación Orientada a Objetos
+      url: /mydoc_python_poo.html
+      output: web, pdf
+
     - title: Aprende python
       url: /mydoc_python_aprender.html
+      output: web, pdf
+
+  - title: Reconocimiento del objetivo
+    output: web, pdf
+    folderitems:
+
+    - title: Nmap
+      url: /mydoc_reco_nmap.html
       output: web, pdf
 
   - title: OverTheWire
