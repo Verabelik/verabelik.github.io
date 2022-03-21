@@ -116,7 +116,7 @@ entries:
     folderitems:
 
     - title: Scribd
-      url: /mydoc_reco_nmap.html
+      url: /mydoc_hackenado_scribd.html
       output: web, pdf
 
   - title: OverTheWire
