@@ -56,6 +56,10 @@ permalink: index.html
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_reco_nmap.html">Nmap</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├ Hackeando...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;└ <a href="https://verabelik.github.io/mydoc_hackenado_scribd.html">Scribd</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;├ OverTheWire<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;│<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;├ <a href="https://verabelik.github.io/mydoc_otw_bandit.html">Bandit</a><br/>
@@ -70,6 +74,10 @@ permalink: index.html
 </div><br/>
 
 ## Últimas 5 actualizaciones
+<u>21/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página "Hackeando a...: Scribd.<br/><br/>
+<u>17/03/2022</u><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página "Reconocimiento del objetivo: Escaneos con NMAP".<br/><br/>
 <u>16/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página "Reconocimiento del objetivo: Escaneos con NMAP".<br/><br/>
 <u>15/03/2022</u><br/>
@@ -77,11 +85,6 @@ permalink: index.html
 <u>14/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Capturar errores".<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python: "Funciones".<br/><br/>
-<u>13/03/2022</u><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Diccionarios".<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Estructuras de control y bucles.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida nueva página "Python: Conjuntos.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida página con teoría sobre programación python a "Aprende python".<br/><br/>
 
 <a href="https://verabelik.github.io/mydoc_actualizaciones.html">Ver todas las actualizaciones</a><br/>
 

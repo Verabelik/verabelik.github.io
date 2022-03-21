@@ -122,13 +122,10 @@ PORT      STATE SERVICE<br/>
 Nmap done: 255 IP addresses (3 hosts up) scanned in 41.44 seconds<br/></div>
 <br/>
 
-## PRUEBA DE TERMINAL
-{% include callout.html content="nmap 192.168.1.* --exclude 192.168.1.30" type="primary" %}
-```python
-def myFuncion():
-    try:
-        n_id = int(input("Introduzca su número de identificación:"))
-    except:
-        print('ERROR: Debe introducir un número.')
-myFuncion()
-````
+## Resumen de los escaneos de NMAP
+
+| Comando | Explicación |
+|--------|--------|
+| <b>nmap -sP -n 192.168.0.1/24</b> | Escaneo ICMP sin resolución de nombres |
+| <b>nmap -p- -sV 192.168.0.20</b> | Escaneo de todos los puertos y la versión de todos los servicios |
+| <b>nmap 192.168.0.*</b> | Escaneo de toda la red |
