@@ -111,6 +111,14 @@ entries:
       url: /mydoc_reco_nmap.html
       output: web, pdf
 
+  - title: Hackeando a...
+    output: web, pdf
+    folderitems:
+
+    - title: Scribd
+      url: /mydoc_reco_nmap.html
+      output: web, pdf
+
   - title: OverTheWire
     output: web, pdf
     folderitems:
