@@ -1,7 +1,7 @@
 ---
 title: Descargando documentos de Scribd
-tags: [hacking]
-keywords: hacking
+tags: [hacking, scribd]
+keywords: hacking, scribd
 summary: "En esta ocasión veremos como es posible descargar PDFs de la web Scribd sin registrarse."
 sidebar: mydoc_sidebar
 permalink: mydoc_hackeando_scribd.html
