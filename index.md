@@ -75,7 +75,7 @@ permalink: index.html
 
 ## Últimas 5 actualizaciones
 <u>21/03/2022</u><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Añadida página "Hackeando a...: Scribd.<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Añadida página "Hacking: Scribd".<br/><br/>
 <u>17/03/2022</u><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Añadida página "Reconocimiento del objetivo: Escaneos con NMAP".<br/><br/>
 <u>16/03/2022</u><br/>
